@@ -1,5 +1,6 @@
+import About from "@/ui/main/index/about/About";
 import Hero from "@/ui/main/index/hero/Hero";
-import Image from "next/image";
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <Hero/>
     </div>
     <div className="w-full h-[100vh]">
-
+      <About/>
     </div>
     <div className="w-full h-[100vh]">
 
