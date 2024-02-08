@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} w-[100%] h-auto overflow-x-hidden overflow-y-auto bg-black`}>
+      <body className={`${inter.className} w-full overflow-x-hidden overflow-y-auto bg-black`}>
         <Navbar/>
         {children}
         <Footer/>

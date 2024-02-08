@@ -34,30 +34,30 @@ function Timer() {
       className="w-full h-auto flex justify-center items-center z-20 md:top-0  md:mt-[-5rem]"
     >
       <div className="w-full md:h-[130px] h-[120px] rounded-2xl  flex  p-1 gap-3">
-        <div className="bg-white w-[25%] h-full rounded-2xl flex flex-col justify-center items-center p-2">
-          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black mb-5 md:text-[40px] text-[30px]">{days}</h1>
+        <div className="bg-white w-[25%] md:h-full h-[90px] rounded-2xl flex flex-col justify-center items-center p-2">
+          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black md:mb-5 md:text-[40px] text-[30px]">{days}</h1>
           <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black rounded-lg text-[10px] md:text-[15px] border p-2">
             DAYS
           </h1>
         </div>
-        <div className="bg-white w-[25%] h-full rounded-2xl   flex flex-col justify-center items-center">
-          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black mb-5 md:text-[40px] text-[30px]">
+        <div className="bg-white w-[25%] md:h-full h-[90px] rounded-2xl   flex flex-col justify-center items-center">
+          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black md:mb-5 md:text-[40px] text-[30px]">
             {hours}
           </h1>
           <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black rounded-lg text-[10px] md:text-[15px] border  p-2">
             HOURS
           </h1>
         </div>
-        <div className="bg-white w-[25%] h-full rounded-2xl flex flex-col justify-center items-center">
-          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black mb-5 md:text-[40px] text-[30px]">
+        <div className="bg-white w-[25%] md:h-full h-[90px] rounded-2xl flex flex-col justify-center items-center">
+          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black md:mb-5 md:text-[40px] text-[30px]">
             {minutes}
           </h1>
           <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black rounded-lg text-[10px] border md:text-[15px] p-2">
             MINUTES
           </h1>
         </div>
-        <div className="bg-white w-[25%] h-full rounded-2xl flex flex-col justify-center items-center">
-          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black mb-5 md:text-[40px] text-[30px]">
+        <div className="bg-white w-[25%] md:h-full h-[90px] rounded-2xl flex flex-col justify-center items-center">
+          <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black md:mb-5 md:text-[40px] text-[30px]">
             {seconds}
           </h1>
           <h1 style={{ textShadow: "5px 5px 9px rgba(0, 0, 0, 1)" }} className="text-black rounded-lg text-[10px] border md:text-[15px] p-2">

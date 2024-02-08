@@ -37,8 +37,38 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding:0 ;
 }
 
 .test{
   background-color: rgba(0, 0, 0, 0.331);
+}
+
+
+/* svg and animation  */
+
+#logo{
+  animation: line-fill 0.5s ease forwards 0.5s;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 200px;
+  stroke-dashoffset: 50px;
+  animation: line-anim 1s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dasharray: 0;
+  }
+}
+
+@keyframes line-fill {
+  from{
+    fill: transparent;
+  }
+  to {
+    fill: url('#paint0_linear_2_34');
+  }
 }
