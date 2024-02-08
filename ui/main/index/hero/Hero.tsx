@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Timer from "@/ui/sub/index/timer/Timer";
 import Link from "next/link";
-import Dsvg from "@/ui/sub/index/svgs/Dsvg";
-import Msvg from "@/ui/sub/index/svgs/Msvg";
+import Dsvg from "@/ui/sub/index/svgs/hero/Dsvg";
+import Msvg from "@/ui/sub/index/svgs/hero/Msvg";
 
 function Hero() {
   return (
@@ -51,7 +51,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="md:w-[50%] h-[50%] absolute top-0 flex justify-center items-center z-[-10]">
+      <div className="md:w-[50%] h-[50%] absolute top-[8rem] md:top-0 flex justify-center items-center z-[-10]">
         <video
           loop
           muted
@@ -62,7 +62,7 @@ function Hero() {
           src="/videos/bg-vid.mp4/"
         />
       </div>
-      <div className="md:w-[50%]  h-[50%] absolute top-[20%] md:flex hidden md:left-[50%] justify-center items-center z-[-10] transform rotate-90">
+      <div className="md:w-[50%]  h-[50%] absolute top-[25rem] left-[-20rem] md:top-[20%] md:left-[50%] justify-center items-center z-[-10] transform md:rotate-90">
         <video
           loop
           muted
