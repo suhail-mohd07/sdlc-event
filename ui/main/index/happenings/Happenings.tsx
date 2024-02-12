@@ -4,7 +4,7 @@ import React from 'react'
 function Happenings() {
   return (
     <div className='w-full h-auto'>
-      <div className='w-full h-auto flex justify-center py-10'>
+      <div data-aos='fade-in' className='w-full h-auto flex justify-center py-10'>
         <Mhi/>
       </div>
     </div>

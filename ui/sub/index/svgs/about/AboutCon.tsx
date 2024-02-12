@@ -36,8 +36,8 @@ function AboutCon() {
           y2="27.0455"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF0000" />
-          <stop offset="1" stop-color="#4200FF" />
+          <stop stopColor="#FF0000" />
+          <stop offset="1" stopColor="#4200FF" />
         </linearGradient>
       </defs>
     </svg>

@@ -36,8 +36,8 @@ function MaboutCon() {
           y2="59.5039"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F80000" />
-          <stop offset="1" stop-color="#6D00F8" />
+          <stop stopColor="#F80000" />
+          <stop offset="1" stopColor="#6D00F8" />
         </linearGradient>
       </defs>
     </svg>

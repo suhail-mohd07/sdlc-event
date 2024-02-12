@@ -17,7 +17,7 @@ function Hero() {
       >
         <span className="bg-gradient-to-r from-white to-gray-500 rounded-2xl flex justify-center items-center z-[0] border border-gray-500">
           <span className="px-2">SD</span>
-          <span className="absolute w-[45px] z-[1] h-[40px] bg-black"></span>
+          <span className="absolute w-[40px] z-[1] h-[40px] bg-black"></span>
           <Image
             className="z-[2]"
             src="/gifs/settings.gif"

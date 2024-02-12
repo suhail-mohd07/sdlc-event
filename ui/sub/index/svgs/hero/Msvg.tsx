@@ -37,8 +37,8 @@ function Msvg() {
           y2="164"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF0000" />
-          <stop offset="1" stop-color="#0038FF" />
+          <stop stopColor="#FF0000" />
+          <stop offset="1" stopColor="#0038FF" />
         </linearGradient>
       </defs>
     </svg>

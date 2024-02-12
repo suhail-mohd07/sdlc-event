@@ -1,4 +1,5 @@
 import About from "@/ui/main/index/about/About";
+import Attendies from "@/ui/main/index/topics/Topics";
 import Happenings from "@/ui/main/index/happenings/Happenings";
 import Hero from "@/ui/main/index/hero/Hero";
 import Image from "next/image"
@@ -15,6 +16,9 @@ export default function Home() {
     </div>
     <div className="w-full  h-auto">
       <Happenings />
+    </div>
+    <div className="w-full h-screen">
+      <Attendies />
     </div>
     <div className="w-full h-screen">
 

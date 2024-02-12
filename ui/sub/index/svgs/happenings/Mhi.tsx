@@ -35,8 +35,8 @@ function Mhi() {
           y2="10.669"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF0000" />
-          <stop offset="1" stop-color="#4D21FF" />
+          <stop stopColor="#FF0000" />
+          <stop offset="1" stopColor="#4D21FF" />
         </linearGradient>
       </defs>
     </svg>
