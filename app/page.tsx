@@ -14,11 +14,11 @@ export default function Home() {
     <div className="w-full h-auto">
       <About/>
     </div>
+    <div className="w-full h-auto mb-10">
+      <Attendies />
+    </div>
     <div className="w-full  h-auto">
       <Happenings />
-    </div>
-    <div className="w-full h-screen">
-      <Attendies />
     </div>
     <div className="w-full h-screen">
 
