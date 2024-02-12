@@ -1,4 +1,4 @@
-import Cards from '@/ui/sub/index/svgs/happenings/Cards'
+import Cards from '@/ui/sub/index/happenings/Cards'
 import Mhi from '@/ui/sub/index/svgs/happenings/Mhi'
 import React from 'react'
 
